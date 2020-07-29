@@ -101,10 +101,3 @@ spec:
             backend:
               serviceName: orion-server-service
               servicePort: 8080
-    - host: orion2.local.io
-      http:
-        paths:
-          - path: /
-            backend:
-              serviceName: orion-server-service
-              servicePort: 8080
